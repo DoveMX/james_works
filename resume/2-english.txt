@@ -1,0 +1,30 @@
+In the 2014, I started my own business. On the way, experience is the best teacher. This experience is important to me. 
+But, now, I think, I should be more appropriate to take stock of the subject, looking for a better career platform, in order to play myself greater potential!
+Well, let me briefly describe my skills.
+
+1.Management Skills:
+(1) Familiar with PMBOK, familiar with CMMI3 certification system, has been in CMMI3 certification company; (Preparing for PMP)
+(2) During my tenure at Kunshan Moyea Software Co., Ltd., I used Agile project management methods to manage;
+(3) Often use JIRA, Office Project to manage projects;
+(4) Most of the time, I use MindMap software to discuss and plan works, such as: MindManager;
+(5) Since more than 10 years of work, I have been involved in a number of projects, as a PM, DA role; 
+(6) I have been the general manager of the company, R & D Center Department Manager.
+
+2.Business Skills:
+(1) Rresearch on the popularity of softwares, analysis and comparison;
+(2) At work, I participate in the planning and design of product prototypes; (Axure RP and Visio)
+(3) Promotion, I have been running Goolge Advertising, analysised of UV, PV, keywords, Build external Links, foreign social media promotion ... 
+
+3.Technical Skills:
+(1) Proficient in C/C++/Objective-c, Python, Node.js;
+(2) Proficient in Python and Node.js crawler technology and automation technology; 
+(3) Proficient in Java, c#.net, H5 (JQuery, Vue.js, Kendoui ...);
+(4) Use C/C++, Java, Golang, Rust to develop plug-ins;
+(5) Learning Electron Programming is earlier, and some of the softwares that is being sold can run normally on Windows, MacOS, and Linux.
+(6) Oracle, MySQL, SQLite, MongoDB, I have accumulated a lot of practical experiences, proficient in pl/sql programming.
+(7) Have developed apps (iOS/Android);
+(8) Daily work, I use SVN and Git;
+(9) In terms of cloud services, I've been using Amazon AWS for the last 2 years, the openshift of the RedHat I used in previous years.
+
+4.English Skills: 
+(1) Proficient in reading and writing. (Preparing for IELTS)

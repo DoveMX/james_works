@@ -1,0 +1,29 @@
+In the 2014, I started trying to start my own business. The scenery on the way to start a business is infinitely good, the dream is both real and a very valuable asset in my life.
+Well, let me briefly describe my skills.
+
+1.Management Skills:
+(1) I am familiar with PMBOK, familiar with CMMI3 certification system, has been in CMMI3 certification company; (I am preparing for PMP)
+(2) During my tenure at Kunshan Moyea Software Co., Ltd., I used Agile project management methods to manage;
+(3) I often use JIRA, Office Project to manage projects;
+(4) Most of the time, I use MindMap software to discuss and plan works, such as: MindManager;
+(5) Since more than 10 years of work, I have been involved in a number of projects, as a PM, DA role; 
+(6) I have been the general manager of the company, R & D Center Department Manager.
+
+2.Business Skills:
+(1) I have been engaged in research on the popularity of Internet applications, analysis and comparison, evaluation of the prospects for the development of similar products;
+(2) At work, I participate in the planning and design of product prototypes; (only Axure RP and Visio have been used)
+(3) In terms of promotion, I have been running product advertising, analysised of traffic, keywords, the establishment of station groups, the construction of external chains, foreign social media promotion ... 
+
+3.Technical Skills:
+(1) I am proficient in C/C++/Objective-c, Python, Node.js;
+(2) I am proficient in Python and Node.js crawler technology and automation technology; 
+(3) I am proficient in Java, c#.net, H5 (JQuery, Vue.js, Kendoui ...);
+(4) In the integrated softwares, I use C/C++, Java, Golang, Rust and other programming languages to develop plug-ins;
+(5) I'm learning Electron Integrated Programming is earlier, and some of the softwares that is being sold can run normally on Windows, MacOS, and Linux operating systems.
+(6) In Oracle, MySQL, SQLite, MongoDB, I have accumulated a lot of practical experiences, proficient in pl/sql programming, skilled in writing triggers and storage processes.
+(7) I've developed apps for Apple phones and Android phones;
+(8) In my daily work, I use SVN and git to manage documents and projects codes;
+(9) In terms of cloud services, I've been using Amazon AWS for the last two years, the openshift of the RedHat I used in previous years.
+
+4.English Skills: 
+(1) I am proficient in reading and writing. (I'm preparing for IELTS)

@@ -4,27 +4,54 @@ use std::cmp::Ordering;
 use rand::Rng;
 
 
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    // add code here
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+    fn log(&self) {
+        println!("{:?}", self);
+    }
+}
+
+impl Rectangle {
+    // add code here
+    fn square(size: u32) -> Rectangle {
+        Rectangle { width: size, height: size }
+    }
+}
+
 fn main() {
-   
-    show_hello();
-    
     let mut s = String::from("hello world");
     let word = first_word(&s);
     println!("====>: {}", word);
     
-    
-    let x = plus_one(5);
+    let rect1 = Rectangle { width: 20, height: 100};
+    println!("{:?}", rect1.area());
+    rect1.log();
 
-    println!("The value of x is: {}", x);
+    let square1 = Rectangle::square(40);
+    square1.log();
+
+    let five = Some(5);
+    let six = plus_one(five);
+    let none = plus_one(None);
+    println!("six = {:?}", six);
 }
 
-fn plus_one(x: i32) -> i32 {
-    x + 1
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(x) => Some(x + 1),
+    }
 }
 
-fn show_hello() {
-    println!("Hello, world!");
-}
 
 fn first_word(s: &str) -> &str {
    let bytes = s.as_bytes();

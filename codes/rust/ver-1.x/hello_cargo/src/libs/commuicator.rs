@@ -14,6 +14,9 @@ pub fn show() {
     scores.insert("Blue", 10);
     scores.insert("Yellow", 50);
 
-    println!("====>{:?} --- {:?}", scores, scores.get("Yellow"));
+    println!("====>{:?} --- {:?}", scores, scores.get("Blue"));
+
+    scores.entry("Blue").or_insert(44);
+    println!("====>{:?} --- {:?}", scores, scores.get("Blue"));
 }
 

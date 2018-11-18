@@ -3,6 +3,9 @@ use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
 
+mod libs;
+
+//main code
 
 #[derive(Debug)]
 struct Rectangle {
@@ -43,6 +46,8 @@ fn main() {
     let six = plus_one(five);
     let none = plus_one(None);
     println!("six = {:?}", six);
+
+    libs::netwrok::client::connect();
 }
 
 fn plus_one(x: Option<i32>) -> Option<i32> {

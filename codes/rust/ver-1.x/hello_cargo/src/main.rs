@@ -31,6 +31,10 @@ impl Rectangle {
 }
 
 fn main() {
+
+    test_string();
+    return;
+
     let mut s = String::from("hello world");
     let word = first_word(&s);
     println!("====>: {}", word);
@@ -48,6 +52,15 @@ fn main() {
     println!("six = {:?}", six);
 
     libs::netwrok::client::connect();
+}
+
+fn test_string() {
+    let s1 = String::from("Hello,");
+    let s2 = String::from("world!");
+    let s3 = s1 + &s2;
+
+    println!("{:?}", s3);
+    println!("{:?}", &s1);
 }
 
 fn plus_one(x: Option<i32>) -> Option<i32> {

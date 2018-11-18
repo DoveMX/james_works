@@ -33,6 +33,10 @@ impl Rectangle {
 fn main() {
 
     test_string();
+
+    // call others modules
+    libs::netwrok::client::connect();
+    libs::commuicator::show();
     return;
 
     let mut s = String::from("hello world");
@@ -51,13 +55,13 @@ fn main() {
     let none = plus_one(None);
     println!("six = {:?}", six);
 
-    libs::netwrok::client::connect();
+    
 }
 
 fn test_string() {
     let s1 = String::from("Hello,");
     let s2 = String::from("world!");
-    let s3 = s1 + &s2;
+    let s3 = format!("{}{}", s1, s2);
 
     println!("{:?}", s3);
     println!("{:?}", &s1);

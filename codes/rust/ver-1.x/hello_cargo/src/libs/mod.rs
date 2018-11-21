@@ -1,6 +1,5 @@
 pub mod commuicator;
-
-
+pub mod error;
 
 
 #[cfg(test)]

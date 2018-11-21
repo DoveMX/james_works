@@ -37,6 +37,8 @@ fn main() {
     // call others modules
     libs::netwrok::client::connect();
     libs::commuicator::show();
+    //libs::error::load_file();
+    libs::error::read_username_from_file();
     return;
 
     let mut s = String::from("hello world");
@@ -96,7 +98,7 @@ fn test_ownership(some_string: &mut String) {
 
 #[warn(igonedead_code)]
 fn guess_things() {
-    let secret_number = rand::thread_rng().gen_range(1,101);
+    let secret_number = rand::thread_rng().gen_range(1,101); 
     println!("The secret number is :{0}", secret_number);
 
     loop {

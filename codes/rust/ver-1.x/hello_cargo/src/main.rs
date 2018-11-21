@@ -36,7 +36,6 @@ fn main() {
 
     // call others modules
     libs::netwrok::client::connect();
-    libs::commuicator::show();
     //libs::error::load_file();
     libs::error::read_username_from_file();
     return;

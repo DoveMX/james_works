@@ -1,9 +1,18 @@
+extern crate debug_panic;
+
 pub mod commuicator;
 pub mod error;
 
 
 pub mod netwrok {
     pub mod client {
+		pub fn workout() {
+			println!("===> Call workout ...");
+
+			use ::libs::commuicator::generate_workout;
+			generate_workout(100);
+		}
+
         pub fn connect() {
             println!("{:?}", "client is here!");
 
@@ -15,7 +24,6 @@ pub mod netwrok {
             	use libs::commuicator::show as commuicator_show;
             	commuicator_show(way_id+1);
             }
-
 
 			{
 	            // 第2种模型引用方式
@@ -64,7 +72,7 @@ mod tests {
 		// add code here
 		pub fn new(value: u32) -> Guess {
 			if value < 1 || value > 100 {
-				panic!("Guess value must be between 1 and 100, got {}.", value);
+				debug_panic!("Guess value must be between 1 and 100, got {}.", value);
 			}
 
 			Guess {

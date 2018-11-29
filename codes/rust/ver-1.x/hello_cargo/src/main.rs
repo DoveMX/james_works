@@ -1,4 +1,10 @@
 extern crate rand;
+extern crate adder;
+extern crate boxs_rc;
+extern crate lifetimes;
+extern crate parallel_helper;
+
+use std::env;
 use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
@@ -30,17 +36,36 @@ impl Rectangle {
     }
 }
 
-fn main() {
 
+fn run_with_subs() {
+    let num  = 10;
+    println!("Hi, I'm {:?} years old ...", adder::add_one(num));
+
+    //boxs_rc::run();
+    parallel_helper::run();
+}
+
+
+fn main() {
+    let args: Vec<String> = env::args().collect();
+    println!("See some args = {:?}", args);
+
+    run_with_subs();
+
+    return;
+
+    // ---
     test_string();
 
     // call others modules
+    libs::netwrok::client::workout();
     libs::netwrok::client::connect();
     //libs::error::load_file();
     libs::error::read_username_from_file();
-    return;
 
-    let mut s = String::from("hello world");
+
+
+    let s = String::from("hello world");
     let word = first_word(&s);
     println!("====>: {}", word);
     
@@ -53,7 +78,7 @@ fn main() {
 
     let five = Some(5);
     let six = plus_one(five);
-    let none = plus_one(None);
+    let _none = plus_one(None);
     println!("six = {:?}", six);
 
     
@@ -87,7 +112,6 @@ fn first_word(s: &str) -> &str {
 
     &s[..]
 }
-
 
 #[warn(igonedead_code)]
 fn test_ownership(some_string: &mut String) {

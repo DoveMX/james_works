@@ -12,7 +12,10 @@ members = [
     "adder",
     "boxs_rc",
     "lifetimes",
-    "parallel_helper"
+    "parallel_helper",
+    "patterns",
+    "webserver",
+    "advances"
 ]
 
 [dependencies]
@@ -22,3 +25,6 @@ adder = { path = "adder" }
 boxs_rc = { path = "boxs_rc" }
 lifetimes = { path = "lifetimes" }
 parallel_helper = { path = "parallel_helper" }
+patterns = { path = "patterns"}
+webserver = { path = "webserver" }
+advances = { path = "advances" }

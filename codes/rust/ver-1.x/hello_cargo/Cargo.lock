@@ -3,6 +3,10 @@ name = "adder"
 version = "0.1.0"
 
 [[package]]
+name = "advances"
+version = "0.1.0"
+
+[[package]]
 name = "bitflags"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -43,11 +47,14 @@ name = "hello_cargo"
 version = "0.1.0"
 dependencies = [
  "adder 0.1.0",
+ "advances 0.1.0",
  "boxs_rc 0.1.0",
  "debug_panic 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "lifetimes 0.1.0",
  "parallel_helper 0.1.0",
+ "patterns 0.1.0",
  "rand 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "webserver 0.1.0",
 ]
 
 [[package]]
@@ -61,6 +68,10 @@ version = "0.1.0"
 
 [[package]]
 name = "parallel_helper"
+version = "0.1.0"
+
+[[package]]
+name = "patterns"
 version = "0.1.0"
 
 [[package]]
@@ -148,6 +159,10 @@ dependencies = [
 name = "semver-parser"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "webserver"
+version = "0.1.0"
 
 [[package]]
 name = "winapi"

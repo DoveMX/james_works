@@ -3,6 +3,9 @@ extern crate adder;
 extern crate boxs_rc;
 extern crate lifetimes;
 extern crate parallel_helper;
+extern crate patterns;
+extern crate webserver;
+extern crate advances;
 
 use std::env;
 use std::io;
@@ -42,7 +45,10 @@ fn run_with_subs() {
     println!("Hi, I'm {:?} years old ...", adder::add_one(num));
 
     //boxs_rc::run();
-    parallel_helper::run();
+    //parallel_helper::run();
+    //patterns::run();
+    //webserver::run();
+    advances::run();
 }
 
 

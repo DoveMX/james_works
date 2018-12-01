@@ -1,0 +1,12 @@
+[package]
+name = "webserver"
+version = "0.1.0"
+authors = ["Ian sun <lauer3912@gmail.com>"]
+
+
+[features]
+default = []
+server = []
+
+
+[dependencies]

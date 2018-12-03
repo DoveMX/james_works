@@ -51,6 +51,7 @@ dependencies = [
  "boxs_rc 0.1.0",
  "debug_panic 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "lifetimes 0.1.0",
+ "methods_lib 0.1.0",
  "parallel_helper 0.1.0",
  "patterns 0.1.0",
  "rand 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -64,6 +65,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "lifetimes"
+version = "0.1.0"
+
+[[package]]
+name = "methods_lib"
 version = "0.1.0"
 
 [[package]]

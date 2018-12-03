@@ -15,7 +15,8 @@ members = [
     "parallel_helper",
     "patterns",
     "webserver",
-    "advances"
+    "advances",
+    "methods_lib"
 ]
 
 [dependencies]
@@ -28,3 +29,4 @@ parallel_helper = { path = "parallel_helper" }
 patterns = { path = "patterns"}
 webserver = { path = "webserver" }
 advances = { path = "advances" }
+methods_lib = { path = "methods_lib"}

@@ -6,6 +6,7 @@ extern crate parallel_helper;
 extern crate patterns;
 extern crate webserver;
 extern crate advances;
+extern crate methods_lib as methodsLib;
 
 use std::env;
 use std::io;
@@ -48,7 +49,8 @@ fn run_with_subs() {
     //parallel_helper::run();
     //patterns::run();
     //webserver::run();
-    advances::run();
+    //advances::run();
+    methodsLib::run();
 }
 
 

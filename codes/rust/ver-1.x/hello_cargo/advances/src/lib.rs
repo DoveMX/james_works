@@ -25,12 +25,12 @@ mod runner {
 //        Pancakes::hello_macro();
 
 
-        #[proc_macro_derive(AnswerFn)]
+//        #[proc_macro_derive(AnswerFn)]
         fn derive_answer_fn() {
 
         }
 
-        #[derive(AnswerFn)]
+//        #[derive(AnswerFn)]
         struct Struct;
 
 

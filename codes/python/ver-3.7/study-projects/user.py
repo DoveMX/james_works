@@ -4,6 +4,7 @@
 import sys
 from dataclasses import dataclass
 from libs.fibo import fib2
+from libs.keraspy import run as fn_kerasRun
 
 @dataclass
 class User():
@@ -27,6 +28,7 @@ def cheeseshop(kind, *arguments, **keywords):
 def concat(*names, sep="/"):
     return sep.join(names)
 
+
 cheeseshop("Limburger", "It's very runny, sir.",
            "It's really very, VERY runny, sir.",
            shopkeeper="Michael Palin",
@@ -36,6 +38,7 @@ cheeseshop("Limburger", "It's very runny, sir.",
 print(concat("earch","mars","venus"))
 print(dir())
 print(fib2(1000))
+fn_kerasRun()
 
 
     

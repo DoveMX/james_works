@@ -73,13 +73,99 @@ mod runner {
         let home = IpAddr::V4(String::from("127.0.0.1"));
         println!("{:?}", home);
 
+        macro_rules! vector {
+            ($($x:expr), *) => {
+                {
+                    let mut temp_vec = Vec::new();
+                    $(temp_vec.push($x);)*
+                    temp_vec
+                }
+            };
+        }
+
+        let a = vector![1,2,4,5,6];
+        println!("{:?}", a);
+
 
         _line();
 
     }
 
+    fn study_macro_case_sample() {
+        // 学习宏的使用
+
+        macro_rules! m_root_1 {
+            () => {};
+        }
+
+        // 宏 m_root_1 这里是可用的
+        m_root_1!();
+
+        mod foo {
+            // 宏 m_root_1 这里是可用的
+            m_root_1!();
+
+            #[macro_export]
+            macro_rules! m_foo_1 {
+                () => {};
+            }
+
+            m_root_1!();
+            m_foo_1!();
+
+        }
+
+        macro_rules! m_root_3 {
+            () => {};
+        }
+
+        mod bar {
+
+            m_root_1!();
+            m_root_3!();
+
+            macro_rules! m_bar_1 {
+                () => {};
+            }
+
+            m_root_1!();
+
+            //#[macro_use]
+            //m_foo_1!();
+
+            m_root_3!();
+            m_bar_1!();
+
+            mod sub {
+                m_root_1!();
+                m_root_3!();
+
+                #[macro_export]
+                macro_rules! m_sub_1 {
+                    () => {};
+                }
+
+            }
+
+            m_root_1!();
+            m_root_3!();
+            m_bar_1!();
+
+            #[macro_use]
+            m_sub_1!();
+
+
+        }
+
+        m_root_1!();
+        m_root_3!();
+
+
+    }
+
     pub fn run() {
         study_method_case_sample();
+        study_macro_case_sample();
     }
 }
 
